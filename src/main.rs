@@ -114,7 +114,7 @@ fn evaluate(tokens: &Vec<Token>) -> f64 {
                         Operator::Sub => ret - value,
                         Operator::Div => ret / value,
                         Operator::Mul => ret * value,
-                        _ => 0.0
+                        _ => 0.0,
                     }
                 }
 
